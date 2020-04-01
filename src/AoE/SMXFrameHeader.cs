@@ -1,9 +1,11 @@
-﻿namespace AoE
+﻿using System;
+
+namespace AoE
 {
     internal sealed class SMXFrameHeader
     {
         internal SMXFrameType     Kind             { get; set; }
-        internal SMXFrameCompression Compression      { get; set; }
+        internal SMXFrameCompression Compression   { get; set; }
         internal byte             PaletteNumber    { get; set; }
         internal int              UncompressedSize { get; set; }
 

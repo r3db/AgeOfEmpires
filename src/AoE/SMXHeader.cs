@@ -1,4 +1,6 @@
-﻿namespace AoE
+﻿using System;
+
+namespace AoE
 {
     internal sealed class SMXHeader
     {
